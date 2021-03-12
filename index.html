@@ -41,6 +41,31 @@
         </div>
     </nav>
 
+    
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Notifications</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            <div class="modal-body">
+                <div class="jumbotron">
+                    <p class="h4">Sebastian Page</p>
+                <p class="h6">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae in et maiores, pariatur expedita odit necessitatibus commodi delectus dolorum tempora quas corrupti eum at laboriosam voluptatibus, voluptate vitae enim eligendi.</p>
+                </div>
+                <div class="jumbotron">
+                    <p class="h4">Gena Asevado</p>
+                    <p class="h6">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate facilis molestiae doloribus perspiciatis ducimus. Sint dolorum minus reprehenderit aperiam! Id placeat magni rerum corporis sequi eos sit nam illo earum?</p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </div>
+
     <div class="container-fluid">
         <div class="row shadow p-3 mb-5 bg-white rounded">
             <div class="col-sm-3 col-md-2">
@@ -48,7 +73,7 @@
                     <li class="list-group-item d-flex justify-content-between align-items-center">
                     Dashboard
                     </li>
-                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <li class="list-group-item d-flex justify-content-between align-items-center" data-toggle="modal" data-target="#exampleModal">
                     Notifications<span class="badge badge-primary badge-pill">2</span>
                     </li>
                     <li class="list-group-item d-flex justify-content-between align-items-center">
